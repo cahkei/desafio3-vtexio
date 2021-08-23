@@ -1,0 +1,37 @@
+.searchBarContainer {
+    width: 500px;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    border-bottom: .0625rem solid #ffffff;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border-bottom: none;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    border-bottom: .625px solid #fff;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input):hover,
+.searchBarContainer :global(.vtex-styleguide-9-x-input):focus {
+    border-bottom-width: 2px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input):focus {
+    border-bottom-color: #59ff00;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-input__suffix){
+    background-color: transparent;
+}
+
+.closeIcon,
+.searchIcon {
+    color: #ffffff;
+}
+.imageElement--banner {
+    border-radius: 20px;
+}

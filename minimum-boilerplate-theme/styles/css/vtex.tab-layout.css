@@ -1,0 +1,25 @@
+.listItem,
+.listItemActive {
+    border-bottom: 3px solid transparent;
+    margin: 0;
+    padding: 6px 12px;
+}
+
+.listItem :global(.vtex-button) {
+    color: #fff;
+    border: none;
+}
+
+.listItem :global(.vtex-button):hover {
+    background: transparent;
+}
+
+.listItemActive {
+    border-bottom-color: #59ff00;
+}
+
+.listItemActive :global(.vtex-button) {
+    background: #212121;
+    border: none;
+    color: #59ff00;
+}

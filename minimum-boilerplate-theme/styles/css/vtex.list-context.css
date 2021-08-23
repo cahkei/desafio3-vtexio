@@ -1,0 +1,7 @@
+.list {
+    width: 912px;
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+}

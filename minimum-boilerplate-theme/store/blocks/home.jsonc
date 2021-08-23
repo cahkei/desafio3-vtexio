@@ -1,0 +1,51 @@
+{
+  "store.home": { 
+    "blocks": [
+      "slider-layout",
+      "list-context.product-list"
+    ]
+  },
+  "slider-layout": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }, 
+    "children": ["image#1", "image#2"]
+  },
+  "image#1": {
+    "props": {
+      "blockClass": "banner",
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T040625Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=4c08632dcf7a6db5f37c510ee033a43105ca227c02859f3205dc3ed8e247c0c2"
+    }
+  },
+  "image#2": {
+    "props": {
+      "blockClass": "banner",
+      "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210821%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210821T041401Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=8cccc8b5e963e40642f5b790228c727377a0706c57d03eb5e1db5a0c0a2832c0"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "list-context-renderer#products"
+    ],
+    "props": {
+      "maxItems": 8
+    }
+  },
+  "list-context-renderer#products": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div"
+    } 
+  }
+}
